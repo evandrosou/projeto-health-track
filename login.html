@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <meta name="description" content="BOOTSTRAP">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!--Minha folha de estilos-->
+    <link rel="stylesheet" href="./assets/style-css/staly.css" title="Estilo Principal">
+    
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="./Js/bootstrap.bundle.min.js"></script>
+    <!--icone aba da pagina-->
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <title>Healt Track</title>
+  </head>
+  <body>
+    <!--conteiner maior-->
+    <div class="conteiner-fluid">
+      <!--cabeçalho-->
+      <header class="conteiner-fluid">
+        <!--navegação entre as páginas-->
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <!--pagina inicial-->
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./projeto.html">Projeto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./baixar.html">Baixar</a>
+          </li>
+        </ul>
+
+      </header>
+    </div>
+      <main class="cor-padrao abertura">
+        <!--titulo-->
+        <h6 class="display-4 text-dark p-3 ms-5">Faça seu cadastro</h6>
+        <!--formulario-->
+        <form>
+          <!--registro do nome-->
+          <div class="row">
+            <div class="col-4 ms-5">
+              <input type="text" class="form-control " placeholder="First name" aria-label="First name">
+            </div>
+            <div class="col-4">
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div>
+          </div>
+          <!--email-->
+          <div class="mb-3 ms-5 me-5">
+            <label for="exampleInputEmail1" class="form-label"> Endereço de (@)E-mail:</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">Seu e-mail será armazenado em segurança.</div>
+          </div>
+          <!--definindo senha-->
+          <div class="mb-3 ms-5 me-5">
+            <label for="exampleInputPassword1" class="form-label">Defina sua senha:</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <!--nao sou robo-->
+          <div class="mb-2 ms-5 me-5 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Não sou robo</label>
+          </div>
+          <button type="submit" class="btn btn-primary mb-5 ms-5 me-5">Cadastrar</button>
+        </form>
+      </main>
+  </body>
+</html>
